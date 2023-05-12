@@ -1,25 +1,79 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: regulal;
-    size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-}
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
 
-/* Header */
-.studio {
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-}
+ .list {
+     list-style: none;
+ }
 
-.list {
-    list-style: none;
-}
+ .link {
+     text-decoration: none;
+ }
+
+ /* Header */
+ .studio {
+     font-family: 'Roboto', sans-serif;
+     font-size: 28px;
+ }
+
+ .list {
+     list-style: none;
+ }
+
+ .header-link:hover {
+     color: #4D5AE5;
+ }
+
+ /* Main */
+ /* Hero */
+ /* What We Are */
+ /* What are we doing */
+ /* Our Team */
+ /* Footer */
 
 
-/* Main */
-/* Hero */
-/* What We Are */
-/* What are we doing */
-/* Our Team */
-/* Footer */
+ /* Buttons */
+ .btn-all {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1, 50;
+     letter-spacing: 0.04em;
+     color: #4D5AE5;
+ }
+
+ .btn-web-site {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1, 50;
+     letter-spacing: 0.04em;
+     color: #4D5AE5;
+ }
+
+ .btn-app {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1, 50;
+     letter-spacing: 0.04em;
+     color: #4D5AE5;
+ }
+
+ .btn-design {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1, 50;
+     letter-spacing: 0.04em;
+     color: #4D5AE5;
+ }
+
+ .btn-marketing {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1, 50;
+     letter-spacing: 0.04em;
+     color: #4D5AE5;
+ }
