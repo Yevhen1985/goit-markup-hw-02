@@ -1,5 +1,19 @@
+ :root {
+     --title-color: #2E2F42;
+     --text-small: #434455;
+     --white-text: #FFFFFF;
+     --light-color: #F4F4FD;
+     --btn-blue: #4D5AE5;
+     --btn-focus: #404BBF;
+     --text-font-size: 16px;
+     --standart-line-height: 1.50;
+     --standart-letter-spacing: 0.02em;
+     --we-are-size: 20px;
+ }
+
  body {
      font-family: 'Roboto', sans-serif;
+     color: #2E2F42;
  }
 
  .list {
@@ -10,70 +24,200 @@
      text-decoration: none;
  }
 
+ .full-logo {
+     font-family: 'Raleway';
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+ }
+
+ /**==========MAIN PAGE==========**/
+
  /* Header */
- .studio {
+
+ .header {
+     background-color: var(--white-text);
+ }
+
+ .logo {
+     color: var(--btn-blue);
+ }
+
+ .header-logo {
+     color: var(--title-color);
+     text-decoration: none;
+ }
+
+ .header-link {
+     font-weight: 500;
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--title-color);
+ }
+
+ .header-link:hover,
+ .header-link:focus {
+
+     color: var(--btn-focus);
+ }
+
+ .header-address {
      font-family: 'Roboto', sans-serif;
-     font-size: 28px;
+     font-style: normal;
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--text-small);
  }
 
- .list {
-     list-style: none;
- }
-
- .header-link:hover {
-     color: #4D5AE5;
+ .header-address:hover,
+ .header-address:focus {
+     color: var(--btn-focus);
  }
 
  /* Main */
  /* Hero */
- /* What We Are */
+ .background {
+     background: var(--title-color)
+ }
+
+ .hero-title {
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--white-text);
+ }
+
+ .hero-btn {
+     background: var(--btn-blue);
+     font-family: 'Roboto' sans-serif;
+     font-weight: 500;
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
+     display: flex;
+     align-items: center;
+     letter-spacing: 0.04em;
+     color: var(--white-text);
+     cursor: pointer;
+ }
+
+ .hero-btn:hover,
+ .hero-btn:focus {
+     background: var(--btn-focus);
+ }
+
+ /* We Are */
+ .what-we-are {
+     font-weight: 500;
+     font-size: var(--we-are-size);
+     line-height: 1.20;
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--title-color)
+ }
+
+ .description {
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--text-small);
+ }
+
  /* What are we doing */
+ .wawd {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.11;
+     letter-spacing: var(--standart-letter-spacing);
+     text-transform: capitalize;
+     color: var(--title-color)
+ }
+
  /* Our Team */
+
+ .team-title {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.11;
+     letter-spacing: var(--standart-letter-spacing);
+     text-transform: capitalize;
+     color: var(--title-color)
+ }
+
+ .person-name {
+     font-weight: 500;
+     font-size: var(--we-are-size);
+     line-height: 1.20;
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--title-color)
+ }
+
+ .person-position {
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--text-small);
+ }
+
  /* Footer */
 
+ .footer {
+     background: var(--title-color)
+ }
+
+ .footer-logo {
+     color: var(--light-color);
+ }
+
+ .text {
+     color: var(--light-color);
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
+     letter-spacing: var(--standart-letter-spacing);
+ }
+
+ /**==========STUDIO==========**/
+
+
+ /**==========PORTFOLIO==========**/
 
  /* Buttons */
- .btn-all {
+
+ .portfolio-btn {
+     background: var(--light-color);
+     border: 1px solid #e7e9fc;
+     border-radius: 4px;
+     cursor: pointer;
      font-family: 'Roboto', sans-serif;
      font-weight: 500;
-     font-size: 16px;
-     line-height: 1, 50;
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
      letter-spacing: 0.04em;
-     color: #4D5AE5;
+     color: var(--btn-blue);
  }
 
- .btn-web-site {
-     font-family: 'Roboto', sans-serif;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1, 50;
-     letter-spacing: 0.04em;
-     color: #4D5AE5;
+ .portfolio-btn:hover,
+ .portfolio-btn:focus {
+     background: var(--btn-focus);
+     color: var(--white-text);
  }
 
- .btn-app {
-     font-family: 'Roboto', sans-serif;
+ .pics-title {
      font-weight: 500;
-     font-size: 16px;
-     line-height: 1, 50;
-     letter-spacing: 0.04em;
-     color: #4D5AE5;
+     font-size: var(--we-are-size);
+     line-height: 1.20;
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--title-color)
  }
 
- .btn-design {
-     font-family: 'Roboto', sans-serif;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1, 50;
-     letter-spacing: 0.04em;
-     color: #4D5AE5;
+ .pics-text {
+     font-size: var(--text-font-size);
+     line-height: var(--standart-line-height);
+     letter-spacing: var(--standart-letter-spacing);
+     color: var(--text-small);
  }
 
- .btn-marketing {
-     font-family: 'Roboto', sans-serif;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1, 50;
-     letter-spacing: 0.04em;
-     color: #4D5AE5;
- }
+ /**==========CONTACTS==========**/
