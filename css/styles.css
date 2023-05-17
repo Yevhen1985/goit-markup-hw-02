@@ -13,7 +13,8 @@
 
  body {
      font-family: 'Roboto', sans-serif;
-     color: #2E2F42;
+     background-color: #FFFFFF var(--white-text);
+     color: 434455;
  }
 
  .list {
@@ -24,14 +25,6 @@
      text-decoration: none;
  }
 
- .full-logo {
-     font-family: 'Raleway', sans-serif;
-     font-weight: 800;
-     font-size: 18px;
-     line-height: 1.17;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
- }
 
  /**==========MAIN PAGE==========**/
 
@@ -41,11 +34,23 @@
      background-color: var(--white-text);
  }
 
- .logo {
+ .full-logo {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
      color: var(--btn-blue);
  }
 
  .header-logo {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
      color: var(--title-color);
      text-decoration: none;
  }
@@ -88,6 +93,7 @@
      font-weight: 700;
      font-size: 56px;
      line-height: 1.07;
+     text-align: center;
      letter-spacing: var(--standart-letter-spacing);
      color: var(--white-text);
  }
@@ -131,17 +137,22 @@
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
+     text-align: center;
      letter-spacing: var(--standart-letter-spacing);
      text-transform: capitalize;
      color: var(--title-color)
  }
 
  /* Our Team */
+ .our-team {
+     background-color: f4f4fd;
+ }
 
  .team-title {
      font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
+     text-align: center;
      letter-spacing: var(--standart-letter-spacing);
      text-transform: capitalize;
      color: var(--title-color)
@@ -169,6 +180,7 @@
  }
 
  .footer-logo {
+     font-family: 'Raleway', sans-serif;
      color: var(--light-color);
  }
 
