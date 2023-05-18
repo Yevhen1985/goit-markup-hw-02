@@ -13,8 +13,8 @@
 
  body {
      font-family: 'Roboto', sans-serif;
-     background-color: #FFFFFF var(--white-text);
-     color: 434455;
+     background-color: var(--white-text);
+     color: #434455;
  }
 
  .list {
@@ -67,6 +67,10 @@
  .header-link:focus {
 
      color: var(--btn-focus);
+ }
+
+ .address-list {
+     font-style: normal;
  }
 
  .header-address {
@@ -144,9 +148,6 @@
  }
 
  /* Our Team */
- .our-team {
-     background-color: f4f4fd;
- }
 
  .team-title {
      font-weight: 700;
@@ -155,7 +156,11 @@
      text-align: center;
      letter-spacing: var(--standart-letter-spacing);
      text-transform: capitalize;
-     color: var(--title-color)
+     color: var(--title-color) background-color: f4f4fd;
+ }
+
+ .team-list {
+     background-color: #FFFFFF;
  }
 
  .person-name {
