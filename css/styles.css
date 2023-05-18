@@ -151,6 +151,10 @@
      background-color: var(--light-color);
  }
 
+ .list-items {
+     background-color: var(--white-text);
+ }
+
  .team-title {
      font-weight: 700;
      font-size: 36px;
@@ -212,6 +216,10 @@
      line-height: var(--standart-line-height);
      letter-spacing: 0.04em;
      color: var(--btn-blue);
+ }
+
+ .photo-list {
+     background-color: var(--white-text);
  }
 
  .portfolio-btn:hover,
