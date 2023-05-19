@@ -107,6 +107,7 @@
      background: var(--btn-blue);
      font-family: 'Roboto', sans-serif;
      font-weight: 500;
+     cursor: pointer;
      font-size: var(--text-font-size);
      line-height: var(--standart-line-height);
      letter-spacing: 0.04em;
@@ -206,6 +207,7 @@
  }
 
  /**==========STUDIO==========**/
+
 
 
  /**==========PORTFOLIO==========**/
