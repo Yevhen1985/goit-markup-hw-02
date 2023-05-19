@@ -76,7 +76,7 @@
 
  .header-address {
      font-family: 'Roboto', sans-serif;
-     font-style: normal;
+
      font-size: var(--text-font-size);
      line-height: var(--standart-line-height);
      letter-spacing: var(--standart-letter-spacing);
@@ -95,7 +95,7 @@
  }
 
  .hero-title {
-     font-weight: 700;
+
      font-size: 56px;
      line-height: 1.07;
      text-align: center;
@@ -111,7 +111,7 @@
      line-height: var(--standart-line-height);
      letter-spacing: 0.04em;
      color: var(--white-text);
-     cursor: pointer;
+
  }
 
  .hero-btn:hover,
@@ -156,7 +156,7 @@
  }
 
  .team-title {
-     font-weight: 700;
+
      font-size: 36px;
      line-height: 1.11;
      text-align: center;
@@ -214,7 +214,6 @@
 
  .portfolio-btn {
      background: var(--light-color);
-     cursor: pointer;
      font-family: 'Roboto', sans-serif;
      font-weight: 500;
      font-size: var(--text-font-size);
